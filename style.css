@@ -23,3 +23,5 @@ code { font-size: .88em; background: var(--surface); border: 1px solid var(--lin
 footer { border-top: 1px solid var(--line); padding-top: 1.25rem; color: var(--muted); font-size: .9rem; display: flex; gap: 1rem; flex-wrap: wrap; }
 .hero { display: flex; gap: 1.25rem; align-items: center; flex-wrap: wrap; }
 .hero img { width: 140px; height: 140px; object-fit: contain; }
+.btn { display: inline-block; padding: .65rem 1.2rem; border-radius: 999px; background: var(--accent); color: #fff; text-decoration: none; font-weight: 600; }
+.btn:hover { filter: brightness(1.08); }
